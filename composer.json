@@ -1,0 +1,31 @@
+{
+  "name": "sas/aos",
+  "description": "Animate on scroll for CMS elements",
+    "version": "v1.0.0",
+  "type": "shopware-platform-plugin",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Shape & Shift",
+            "role": "Manufacturer",
+            "homepage": "https://shapeandshift.dev"
+        }
+    ],
+    "require": {
+        "shopware/core": "^6.1|^6.2",
+        "shopware/administration": "^6.1|^6.2",
+        "shopware/storefront":"^6.1|^6.2"
+    },
+  "autoload": {
+    "psr-4": {
+      "Sas\\Aos\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "Sas\\Aos\\SasAos",
+    "label": {
+      "de-DE": "Animate on scroll for CMS elements",
+      "en-GB": "Animate on scroll for CMS elements"
+    }
+  }
+}

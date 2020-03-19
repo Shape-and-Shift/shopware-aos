@@ -1,0 +1,10 @@
+### OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+
+## node_modules
+src/Resources/app/storefront/node_modules
+
+## other stuff
+/.idea

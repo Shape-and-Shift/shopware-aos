@@ -1,0 +1,14 @@
+{% sw_extends '@Storefront/storefront/section/cms-section-block-container.html.twig' %}
+
+{% set aos = shopware.config.SasAos.config %}
+
+{% block section_content_block %}
+    <div data-aos="{{ aos.aosAnimation }}"
+         data-aos-duration="{{ aos.aosDuration }}"
+         data-aos-offset="{{ aos.aosOffset }}"
+         data-aos-delay="{{ aos.aosDelay }}"
+         data-aos-anchor-placement="{{  aos.aosAnchorPlacement }}"
+    >
+        {{ parent() }}
+    </div>
+{% endblock %}
