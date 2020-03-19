@@ -2,4 +2,4 @@
 
 # AOS - Animate on scroll
 
-A simple Shopware 6 plugin which enables you to use the AOS library for your Shopware CMS elements.
+A simple Shopware 6 plugin which enables you to use the [Animate on Scroll library](https://michalsnik.github.io/aos/) for your Shopware CMS elements.
